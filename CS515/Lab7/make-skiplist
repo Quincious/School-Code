@@ -1,0 +1,12 @@
+CXX=g++
+
+skiptest: skiplist.o skiptest1.o
+	$(CXX) -g skiplist.o skiptest1.o -o skiptest0
+
+skiplist.o: skiplist.cpp skiplist.h
+	$(CXX) -c -g skiplist.cpp
+
+skiptest1.o: skiptest1.cpp skiplist.h
+	$(CXX) -c -g skiptest1.cpp
+clean:
+	rm -f skiplist.o skiptest1.o skiptest0

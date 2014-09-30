@@ -1,0 +1,88 @@
+// $Id: GuesserTextUI.java 856 2013-11-06 15:38:08Z charpov $
+
+package cs671;
+
+import java.util.regex.Pattern;
+import java.util.Scanner;
+import java.io.PrintWriter;
+import java.util.Set;
+
+/** Stub of the text-based user interface for guessing games. */
+public class GuesserTextUI {
+
+  /** Builds a user interface for the given guesser.  Questions are
+   *  displayed on <code>output</code> and user input is read from
+   *  <code>input</code>.
+   */
+   public GuesserTextUI
+    (Guesser<?> g, java.io.Reader input, java.io.Writer output) {
+     // to be implemented
+  }
+
+  /** Builds a user interface for the given guesser.  Questions are
+   *  displayed on <code>System.out</code> and user input is read from
+   *  <code>System.in</code>.
+   */
+   public GuesserTextUI (Guesser<?> g) {
+     // to be implemented
+  }
+
+  // to be implemented
+  public int play () {
+    return -1;
+  }
+
+  private static void usage () {
+    System.err.println
+      ("Usage: TextUI -hilo min max\n"+
+       "   or: TextUI -liar #lies name1 [name2 ...]\n"+
+       "   or: TextUI -liar #lies -file filename #names");
+  }
+
+  /** Starts a command-line program.  This program can be started in 3
+   * different ways:
+   *<pre>
+   * Usage: TextUI -hilo min max
+   *    or: TextUI -liar #lies name1 [name2 ...]
+   *    or: TextUI -liar #lies -file filename #names
+   *</pre>
+   *
+   * The last form takes the names of the secret objects from a file
+   * and the last parameter specifies how many of these are actually used in
+   * the game.
+   *
+   * @param args command-line parameters
+   * @see Liar#selectCandidates
+   * @throws java.io.IOException if the file of names cannot be opened and read
+   */
+  public static void main (String[] args) throws java.io.IOException {
+    if (args.length < 3) {
+      usage();
+      return;
+    }
+    Guesser<?> guesser = null;
+    if (args[0].equals("-hilo"))
+      guesser = makeHiLoGuesser(args);
+    else if (args[0].equals("-liar"))
+      guesser = makeLiarGuesser(args); // args.length > 2
+    if (guesser == null) {
+      usage();
+      return;
+    }
+    int n = new GuesserTextUI(guesser).play();
+    System.out.printf("(%d game", n);
+    if (n > 1)
+      System.out.printf("s");
+    System.out.println(" played)");
+  }
+
+  // to be implemented
+  private static Guesser<Integer> makeHiLoGuesser (String[] args) {
+    return null;
+  }
+
+  // to be implemented
+  private static Guesser<Liar.Secret<String>> makeLiarGuesser (String[] args) {
+    return null;
+  }
+}

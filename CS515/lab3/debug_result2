@@ -1,0 +1,28 @@
+/** CS515 Lab 3
+	File: debug1.cpp, debug2.cpp, debug_result1, debug_result2, toUpper.cpp, countFreq.cpp
+	Name: Jonathan Hart
+	Section: 2
+	Date: 9/11/13
+	Collaboration Declaration: Jake Woodward
+*/
+
+(gdb) print s1
+$3 = 0x7fffffffe3a0 "HelloW"
+(gdb) s
+16	        s1[k+s1len] = s2[k];
+(gdb) s
+15	    for(int k = 0; k < s2len; k++){
+(gdb) print s1
+$4 = 0x7fffffffe3a0 "HelloWo"
+(gdb) s
+16	        s1[k+s1len] = s2[k];
+(gdb) s
+15	    for(int k = 0; k < s2len; k++){
+(gdb) print s1
+$5 = 0x7fffffffe3a0 "HelloWor\207\006\242\356\067"
+(gdb) s
+16	        s1[k+s1len] = s2[k];
+(gdb) s
+15	    for(int k = 0; k < s2len; k++){
+(gdb) print s1
+$6 = 0x7fffffffe3a0 "HelloWorl\006\242\356\067"

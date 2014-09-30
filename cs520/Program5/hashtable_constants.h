@@ -1,0 +1,7 @@
+#ifndef HASHTABLE_CONSTANTS_H
+#define HASHTABLE_CONSTANTS_H
+
+#define N_READ_THREADS 5
+#define N_WRITE_THREADS 5
+
+#endif

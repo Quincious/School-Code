@@ -1,0 +1,15 @@
+/** CS515 Lab 3
+	File: debug1.cpp, debug2.cpp, debug_result1, debug_result2, toUpper.cpp, countFreq.cpp
+	Name: Jonathan Hart
+	Section: 2
+	Date: 9/11/13
+	Collaboration Declaration: Jake Woodward
+*/
+
+
+Starting program: /home/csu/jme354/cs515/lab3/debug1 debug1
+
+Breakpoint 1, displayArr (arr=0x7fffffffe3e0) at debug1.cpp:27
+27	    	cout << i << ": " << arr[i] << endl;
+(gdb) print i
+$2 = 8

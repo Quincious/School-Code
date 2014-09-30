@@ -1,0 +1,73 @@
+SUCCESS: tests.TestHiLo.consParam1 completed in 0.4 milliseconds
+SUCCESS: tests.TestHiLo.consParam2 completed in 0.3 milliseconds
+SUCCESS: tests.TestHiLo.getSecret1 completed in 1.8 milliseconds
+SUCCESS: tests.TestHiLo.getSecret2 completed in 0.9 milliseconds
+SUCCESS: tests.TestHiLo.getSecret3 completed in 0.8 milliseconds
+SUCCESS: tests.TestHiLo.getSecret4 completed in 2.2 milliseconds
+FAILURE: tests.TestHiLo.getSecret5 [Worker-1] charpov.grader.TimeoutException: timed out after 1000 milliseconds
+SUCCESS: tests.TestHiLo.getSecret6 completed in 0.1 milliseconds
+SUCCESS: tests.TestHiLo.progress1 completed in 0.0 milliseconds
+SUCCESS: tests.TestHiLo.progress2 completed in 0.0 milliseconds
+SUCCESS: tests.TestHiLo.progress3 completed in 0.0 milliseconds
+FAILURE: tests.TestHiLo.progress4 [progress4 runner] java.lang.AssertionError: expected [1.0] but found [NaN]
+         at tests.TestHiLo.progress4(TestHiLo.java:198)
+SUCCESS: tests.TestHiLo.state1 completed in 0.0 milliseconds
+SUCCESS: tests.TestHiLo.state2 completed in 0.0 milliseconds
+SUCCESS: tests.TestHiLo.state3 completed in 0.0 milliseconds
+SUCCESS: tests.TestHiLo.state4 completed in 0.0 milliseconds
+SUCCESS: tests.TestHiLo.state5 completed in 0.0 milliseconds
+SUCCESS: tests.TestHiLo.state6 completed in 0.0 milliseconds
+SUCCESS: tests.TestHiLo.state7 completed in 0.0 milliseconds
+SUCCESS: tests.TestHiLo.state8 completed in 0.0 milliseconds
+SUCCESS: tests.TestHiLo.state9 completed in 0.0 milliseconds
+SUCCESS: tests.TestLiar.testBig1 completed in 3.6 milliseconds
+SUCCESS: tests.TestLiar.testBig2 completed in 1.599 second
+SUCCESS: tests.TestLiar.testBig3 completed in 1.972 second
+FAILURE: tests.TestLiar.testBig4 [Worker-1] charpov.grader.TimeoutException: timed out after 10000 milliseconds
+FAILURE: tests.TestLiar.testBig5 [Worker-1] charpov.grader.TimeoutException: timed out after 10000 milliseconds
+FAILURE: tests.TestLiar.testBig6 [Worker-1] charpov.grader.TimeoutException: timed out after 60000 milliseconds
+FAILURE: tests.TestLiar.testBig7 [Worker-1] charpov.grader.TimeoutException: timed out after 1800000 milliseconds
+SUCCESS: tests.TestLiar.testFields1 completed in 0.7 milliseconds
+SUCCESS: tests.TestLiar.testFields2 completed in 0.1 milliseconds
+SUCCESS: tests.TestLiar.testGetAnswer1 completed in 2.1 milliseconds
+SUCCESS: tests.TestLiar.testGetAnswer10 completed in 46.1 milliseconds
+SUCCESS: tests.TestLiar.testGetAnswer11 completed in 19.2 milliseconds
+SUCCESS: tests.TestLiar.testGetAnswer2 completed in 0.4 milliseconds
+FAILURE: tests.TestLiar.testGetAnswer3 [testGetAnswer3 runner] java.lang.IllegalStateException
+         at cs671.Liar.getSecret(Liar.java:263)
+         at tests.TestLiar.testGetAnswer3(TestLiar.java:89)
+SUCCESS: tests.TestLiar.testGetAnswer4 completed in 0.1 milliseconds
+SUCCESS: tests.TestLiar.testGetAnswer5 completed in 0.9 milliseconds
+SUCCESS: tests.TestLiar.testGetAnswer6 completed in 0.2 milliseconds
+SUCCESS: tests.TestLiar.testGetAnswer7 completed in 0.2 milliseconds
+SUCCESS: tests.TestLiar.testGetAnswer8 completed in 12.3 milliseconds
+SUCCESS: tests.TestLiar.testGetAnswer9 completed in 22.8 milliseconds
+SUCCESS: tests.TestLiar.testHasSolved1 completed in 0.2 milliseconds
+SUCCESS: tests.TestLiar.testHasSolved2 completed in 0.2 milliseconds
+SUCCESS: tests.TestLiar.testProgress1 completed in 0.1 milliseconds
+SUCCESS: tests.TestLiar.testProgress2 completed in 0.1 milliseconds
+SUCCESS: tests.TestLiar.testProgress3 completed in 8.5 milliseconds
+SUCCESS: tests.TestLiar.testProgress4 completed in 0.2 milliseconds
+SUCCESS: tests.TestLiar.testProgress6 completed in 0.3 milliseconds
+SUCCESS: tests.TestLiar.testSelectCandidates1 completed in 0.2 milliseconds
+SUCCESS: tests.TestLiar.testSelectCandidates2 completed in 0.1 milliseconds
+FAILURE: tests.TestLiar.testSelectCandidates3 [testSelectCandidates3 runner] java.lang.IllegalStateException
+         at cs671.Liar.getSecret(Liar.java:263)
+         at tests.TestLiar.testSelectCandidates3(TestLiar.java:115)
+SUCCESS: tests.TestLiar.testState1 completed in 0.1 milliseconds
+SUCCESS: tests.TestLiar.testState2 completed in 0.1 milliseconds
+SUCCESS: tests.TestLiar.testState3 completed in 0.1 milliseconds
+SUCCESS: tests.TestLiar.testState4 completed in 0.1 milliseconds
+SUCCESS: tests.TestLiar.testState5 completed in 0.1 milliseconds
+SUCCESS: tests.TestLiar.testState6 completed in 0.1 milliseconds
+SUCCESS: tests.TestLiar.testState7 completed in 0.1 milliseconds
+SUCCESS: tests.TestLiar.testState8 completed in 0.3 milliseconds
+SUCCESS: tests.TestLiar.testState9 completed in 0.1 milliseconds
+SUCCESS: tests.TestGuesserTextUI.testUI1 completed in 11.7 milliseconds
+SUCCESS: tests.TestGuesserTextUI.testUI2 completed in 1.4 milliseconds
+SUCCESS: tests.TestGuesserTextUI.testUI3 completed in 3.155 seconds
+SUCCESS: tests.TestGuesserTextUI.testUI4 completed in 2.747 seconds
+SUCCESS: tests.TestGuesserTextUI.testUI5 completed in 0.2 milliseconds
+SUCCESS: tests.TestGuesserTextUI.testUI6 completed in 0.2 milliseconds
+INFO:    58 tests passed; 8 failed
+Total: 92.310/100

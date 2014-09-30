@@ -1,0 +1,145 @@
+test01 (value=1): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test02 (value=1): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test03 (value=2): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test04 (value=2): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test05 (value=2): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test06 (value=1): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test07 (value=1): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test08 (value=2): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test09 (value=2): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test10 (value=2): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test11 (value=1): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test12 (value=1): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test13 (value=1): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test14 (value=1): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test15 (value=4): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test16 (value=3): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test17 (value=4): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test18 (value=3): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test21 (value=6): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test22 (value=5): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test23 (value=5): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test24 (value=5): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test19 (value=2): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test25 (value=2): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test26 (value=2): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test27 (value=3): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test28 (value=3): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test29 (value=3): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test30 (value=3): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test31 (value=3): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test32 (value=3): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test33 (value=3): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test34 (value=3): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test35 (value=5): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test36 (value=5): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+test37 (value=5): /usr/local/bin/sml: Fatal error -- Uncaught exception Error with 0
+ raised at ../compiler/TopLevel/interact/evalloop.sml:66.19-66.27
+
+=== NO OUTPUT ===
+score: 0 / 100

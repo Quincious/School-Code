@@ -1,0 +1,30 @@
+total 132
+dr-xr-xr-x.  23 root root  4096 Aug 14 08:51 .
+dr-xr-xr-x.  23 root root  4096 Aug 14 08:51 ..
+-rw-r--r--    1 root root     0 Aug  6 10:29 .autorelabel
+lrwxrwxrwx.   1 root root     7 Jun 12 15:29 bin -> usr/bin
+dr-xr-xr-x.   3 root root  4096 Aug  5 11:25 boot
+drwxr-xr-x   18 root root  4140 Oct  4 15:26 dev
+drwxr-xr-x. 143 root root 12288 Oct 15 03:45 etc
+drwxr-xr-x    3 root root  4096 Aug  6 09:54 export
+drwxr-xr-x    5 root root     0 Oct 16 13:17 home
+lrwxrwxrwx.   1 root root     7 Jun 12 15:29 lib -> usr/lib
+lrwxrwxrwx.   1 root root     9 Jun 12 15:29 lib64 -> usr/lib64
+drwx------.   2 root root 16384 Jun 12 15:28 lost+found
+drwxr-xr-x.   2 root root  4096 Jul 19  2012 media
+drwxr-xr-x    2 root root     0 Aug 14 08:50 misc
+drwxr-xr-x. 541 root root 20480 Jul 17 11:45 mnt
+drwxr-xr-x    2 root root     0 Aug 14 08:50 net
+drwxr-xr-x.   4 root root  4096 Jul 23 11:54 opt
+dr-xr-xr-x  567 root root     0 Aug 14 08:50 proc
+-rw-r--r--    1 root root 33647 Aug 14 08:51 .readahead
+drwxr-x---.  44 root root  4096 Oct  9 14:42 root
+drwxr-xr-x   36 root root  1300 Oct 16 10:21 run
+lrwxrwxrwx.   1 root root     8 Jun 12 15:29 sbin -> usr/sbin
+drwxr-xr-x    6 root root  4096 Aug  6 09:54 snaps
+drwxr-xr-x.   2 root root  4096 Jul 19  2012 srv
+dr-xr-xr-x   13 root root     0 Aug 14 08:50 sys
+drwxrwxrwt  325 root root  6660 Oct 16 13:27 tmp
+drwxr-xr-x.  14 root root  4096 Jun 13 11:18 usr
+drwxr-xr-x.  19 root root  4096 Jun 12 16:27 var
+drwxr-x---    2 root root  4096 Aug  7 13:36 x

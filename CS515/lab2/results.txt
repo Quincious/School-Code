@@ -1,0 +1,230 @@
+/** CS515 Lab 2
+	File: debug1.cpp, debug2.cpp, results, myatoi.cpp, printnum.cpp
+	Name: Jonathan Hart
+	Section: 2
+	Date: 9/4/13
+	Collaboration Declaration: Bradley Snay
+*/
+
+
+
+debug1.cpp
+-----------------------------------------------------------------------------------
+-bash-4.2$ g++ -g debug1.cpp -o debug1
+-bash-4.2$ gdb debug1
+GNU gdb (GDB) Fedora (7.5.1-38.fc18)
+Copyright (C) 2012 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from /home/csu/bjo56/cs515/lab2/debug1...done.
+(gdb) break 11
+Breakpoint 1 at 0x400a6e: file debug1.cpp, line 11.
+(gdb) run
+Starting program: /home/csu/bjo56/cs515/lab2/debug1 
+Enter the number: 5
+
+Breakpoint 1, main () at debug1.cpp:11
+11	        result = result*i;    	
+Missing separate debuginfos, use: debuginfo-install glibc-2.16-33.fc18.x86_64 libgcc-4.7.2-8.fc18.x86_64 libstdc++-4.7.2-8.fc18.x86_64
+(gdb) print result
+$1 = 0
+(gdb) continue
+Continuing.
+
+Breakpoint 1, main () at debug1.cpp:11
+11	        result = result*i;    	
+(gdb) print result
+$2 = 0
+(gdb) continue
+Continuing.
+
+Breakpoint 1, main () at debug1.cpp:11
+11	        result = result*i;    	
+(gdb) print result
+$3 = 0
+(gdb) exit
+Undefined command: "exit".  Try "help".
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 28977] will be killed.
+
+Quit anyway? (y or n) y
+-bash-4.2$ g++ -g debug1.cpp -o debug1
+-bash-4.2$ gdb debug1
+GNU gdb (GDB) Fedora (7.5.1-38.fc18)
+Copyright (C) 2012 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from /home/csu/bjo56/cs515/lab2/debug1...done.
+(gdb) break 11
+Breakpoint 1 at 0x400a6c: file debug1.cpp, line 11.
+(gdb) run
+Starting program: /home/csu/bjo56/cs515/lab2/debug1 
+Enter the number: 5
+
+Breakpoint 1, main () at debug1.cpp:11
+11	    for (int i=1; i< num; i++)
+Missing separate debuginfos, use: debuginfo-install glibc-2.16-33.fc18.x86_64 libgcc-4.7.2-8.fc18.x86_64 libstdc++-4.7.2-8.fc18.x86_64
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 29277] will be killed.
+
+Quit anyway? (y or n) y
+-bash-4.2$ g++ -g debug1.cpp -o debug1
+-bash-4.2$ gdb debug1
+GNU gdb (GDB) Fedora (7.5.1-38.fc18)
+Copyright (C) 2012 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from /home/csu/bjo56/cs515/lab2/debug1...done.
+(gdb) break 12
+Breakpoint 1 at 0x400a75: file debug1.cpp, line 12.
+(gdb) run
+Starting program: /home/csu/bjo56/cs515/lab2/debug1 
+Enter the number: 5
+
+Breakpoint 1, main () at debug1.cpp:12
+12	        result = result*i;    	
+Missing separate debuginfos, use: debuginfo-install glibc-2.16-33.fc18.x86_64 libgcc-4.7.2-8.fc18.x86_64 libstdc++-4.7.2-8.fc18.x86_64
+(gdb) print result
+$1 = 1
+(gdb) continue
+Continuing.
+
+Breakpoint 1, main () at debug1.cpp:12
+12	        result = result*i;    	
+(gdb) print result
+$2 = 1
+(gdb) continue
+Continuing.
+
+Breakpoint 1, main () at debug1.cpp:12
+12	        result = result*i;    	
+(gdb) print result
+$3 = 2
+(gdb) continue
+Continuing.
+
+Breakpoint 1, main () at debug1.cpp:12
+12	        result = result*i;    	
+(gdb) print result
+$4 = 6
+(gdb) continue
+Continuing.
+The factorial of 5 is 24
+[Inferior 1 (process 29316) exited normally]
+(gdb) quit
+-bash-4.2$ g++ -g debug1.cpp -o debug1
+-bash-4.2$ gdb debug1
+GNU gdb (GDB) Fedora (7.5.1-38.fc18)
+Copyright (C) 2012 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from /home/csu/bjo56/cs515/lab2/debug1...done.
+(gdb) run
+Starting program: /home/csu/bjo56/cs515/lab2/debug1 
+Enter the number: 5
+The factorial of 5 is 120
+[Inferior 1 (process 29577) exited normally]
+Missing separate debuginfos, use: debuginfo-install glibc-2.16-33.fc18.x86_64 libgcc-4.7.2-8.fc18.x86_64 libstdc++-4.7.2-8.fc18.x86_64
+(gdb) 
+
+
+
+
+
+
+debug2.cpp
+---------------------------------------------------------------------
+-bash-4.2$ g++ -g debug2.cpp -o debug2
+-bash-4.2$ gdb debug2
+GNU gdb (GDB) Fedora (7.5.1-38.fc18)
+Copyright (C) 2012 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from /home/csu/bjo56/cs515/lab2/debug2...done.
+(gdb) break 10
+Breakpoint 1 at 0x4009c4: file debug2.cpp, line 10.
+(gdb) run
+Starting program: /home/csu/bjo56/cs515/lab2/debug2 
+
+Breakpoint 1, printIntArray (a=0x7fffffffe430, n=3) at debug2.cpp:10
+10	        cout << a[i] << " ";
+Missing separate debuginfos, use: debuginfo-install glibc-2.16-33.fc18.x86_64 libgcc-4.7.2-8.fc18.x86_64 libstdc++-4.7.2-8.fc18.x86_64
+(gdb) print a
+$1 = (int *) 0x7fffffffe430
+(gdb) print a[i]
+$2 = 90
+(gdb) continue
+Continuing.
+
+Breakpoint 1, printIntArray (a=0x7fffffffe430, n=3) at debug2.cpp:10
+10	        cout << a[i] << " ";
+(gdb) print a[i]
+$3 = 11
+(gdb) continue
+Continuing.
+
+Breakpoint 1, printIntArray (a=0x7fffffffe430, n=3) at debug2.cpp:10
+10	        cout << a[i] << " ";
+(gdb) print a[i]
+$4 = 20
+(gdb) continue
+Continuing.
+
+Breakpoint 1, printIntArray (a=0x7fffffffe430, n=3) at debug2.cpp:10
+10	        cout << a[i] << " ";
+(gdb) print a[i]
+$5 = 0
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 30796] will be killed.
+
+Quit anyway? (y or n) y
+-bash-4.2$ g++ -g debug2.cpp -o debug2
+-bash-4.2$ gdb debug2
+GNU gdb (GDB) Fedora (7.5.1-38.fc18)
+Copyright (C) 2012 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from /home/csu/bjo56/cs515/lab2/debug2...done.
+(gdb) run
+Starting program: /home/csu/bjo56/cs515/lab2/debug2 
+90 11 20 
+19 21 90 11 20 19 45 3 44 52 
+[Inferior 1 (process 30967) exited normally]
+Missing separate debuginfos, use: debuginfo-install glibc-2.16-33.fc18.x86_64 libgcc-4.7.2-8.fc18.x86_64 libstdc++-4.7.2-8.fc18.x86_64
+(gdb) 

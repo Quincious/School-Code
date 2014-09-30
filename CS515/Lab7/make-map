@@ -1,0 +1,10 @@
+CXX=g++
+
+maptest: maptest.cpp map.o mapImpl.o set.o
+	$(CXX) -g maptest.cpp map.o mapImpl.o set.o -o maptest
+
+map.o: map.cpp map.h
+	$(CXX) -g -c map.cpp 
+
+clean:
+	rm -f map.o maptest

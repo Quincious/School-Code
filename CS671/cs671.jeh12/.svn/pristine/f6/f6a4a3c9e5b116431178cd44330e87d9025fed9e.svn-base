@@ -1,0 +1,276 @@
+Compiling code for student jeh12
+javac -sourcepath src -Xlint -d . src/cs671/Guesser.java src/cs671/Liar.java src/cs671/HiLo.java src/cs671/GuesserTextUI.java
+
+
+Compiling Tests...
+javac -Xlint -d . -cp .:/home/csadmin/cs671/grader.jar src/tests/TestHW1.java
+javac -Xlint -d . -cp .:/home/csadmin/cs671/grader.jar src/tests/SampleTests1.java
+src/tests/SampleTests1.java:26: warning: [rawtypes] found raw type: HiLo
+    new HiLo(3, 3);
+        ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/SampleTests1.java:27: warning: [rawtypes] found raw type: HiLo
+    new HiLo(-5, 0);
+        ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/SampleTests1.java:28: warning: [rawtypes] found raw type: HiLo
+    new HiLo(Integer.MIN_VALUE, Integer.MAX_VALUE);
+        ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/SampleTests1.java:32: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(0, 999);
+    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/SampleTests1.java:32: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(0, 999);
+                    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/SampleTests1.java:42: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(0, 999);
+    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/SampleTests1.java:42: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(0, 999);
+                    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+7 warnings
+javac -Xlint -d . -cp .:/home/csadmin/cs671/grader.jar src/tests/TestHiLo.java
+src/tests/TestHiLo.java:17: warning: [rawtypes] found raw type: HiLo
+      new HiLo(5, 4);
+          ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:25: warning: [rawtypes] found raw type: HiLo
+    new HiLo(3, 3);
+        ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:26: warning: [rawtypes] found raw type: HiLo
+    new HiLo(-5, 0);
+        ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:27: warning: [rawtypes] found raw type: HiLo
+    new HiLo(Integer.MIN_VALUE, Integer.MAX_VALUE);
+        ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:32: warning: [rawtypes] found raw type: HiLo
+      new HiLo(1,10).makeQuestion();
+          ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:40: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(1,10);
+    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:40: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(1,10);
+                    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:51: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(1,10);
+    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:51: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(1,10);
+                    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:63: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(1,10);
+    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:63: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(1,10);
+                    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:76: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(1,10);
+    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:76: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(1,10);
+                    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:86: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(1,10);
+    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:86: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(1,10);
+                    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:96: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(1,10);
+    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:96: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(1,10);
+                    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:106: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(1,10);
+    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:106: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(1,10);
+                    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:121: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(1,10);
+    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:121: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(1,10);
+                    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:131: warning: [rawtypes] found raw type: HiLo
+    getSecret(new HiLo(0,999), 421);
+                  ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:135: warning: [rawtypes] found raw type: HiLo
+    getSecret(new HiLo(0,999), 0);
+                  ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:139: warning: [rawtypes] found raw type: HiLo
+    getSecret(new HiLo(0,999), 999);
+                  ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:143: warning: [rawtypes] found raw type: HiLo
+    getSecret(new HiLo(0,2000000000), 123456789);
+                  ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:147: warning: [rawtypes] found raw type: HiLo
+    getSecret(new HiLo(Integer.MIN_VALUE,Integer.MAX_VALUE), 0);
+                  ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:151: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(42, 42);
+    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:151: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(42, 42);
+                    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:163: warning: [rawtypes] found raw type: HiLo
+  void getSecret (HiLo hilo, int target) throws NumberFormatException {
+                  ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:187: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(1,1000);
+    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:187: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(1,1000);
+                    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:195: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(100,100);
+    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:195: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(100,100);
+                    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:203: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(1,1000);
+    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:203: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(1,1000);
+                    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:215: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(1,1000);
+    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+src/tests/TestHiLo.java:215: warning: [rawtypes] found raw type: HiLo
+    HiLo hilo = new HiLo(1,1000);
+                    ^
+  missing type arguments for generic class HiLo<T>
+  where T is a type-variable:
+    T extends Object declared in class HiLo
+37 warnings
+javac -Xlint -d . -cp .:/home/csadmin/cs671/grader.jar src/tests/TestLiar.java
+javac -Xlint -d . -cp .:/home/csadmin/cs671/grader.jar src/tests/TestGuesserTextUI.java

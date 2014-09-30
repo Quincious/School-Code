@@ -1,0 +1,110 @@
+// $Id: Tester.java 232 2014-01-27 02:40:06Z cs671a $
+
+package cs671;
+
+import java.util.List;
+import java.io.PrintWriter;
+
+/** Test runner.  This class is used to run the tests methods
+ * (annotated with {@code @TestMethod}) found in classes that
+ * implement {@code Testable}.
+ * 
+ * <p>Instances of this class exist in two flavors, whether they run a
+ * single test class (see {@code makeTester}) or a suite of test
+ * classes (see {@code makeSuite}).  Suites can be nested.  They
+ * cannot be empty.  All the test classes (or sub-suites) in a suite
+ * are processed in order.  All the test methods in a test class are
+ * invoked in string order of their names.  Furthermore, they are all
+ * invoked on the same instance.
+ *
+ * <p>Test classes have type {@code Testable}. A {@code beforeMethod}
+ * is run before each test method.  If this method returns {@code
+ * false} (or fails), the corresponding test is not run.  An {@code
+ * afterMethod} is run after each test, whether the test was
+ * successful or not.  It is not run of the test was not run.
+ * Failures in the {@code afterMethod} are reported as warnings but
+ * have no further effect.
+ *
+ *<p>In general, no-argument methods are valid test methods if they
+ * are annotated, even when they are non-public or non-void.  Static
+ * method and methods that require arguments are ignored.  A warning
+ * is displayed if they are test-annotated.
+ *
+ * <p>Tests results are produced as immutable {@code TestResult}
+ * instances.  No pass/fail report is generated.  I/O is used to
+ * report problems with test classes (which are disctinct from failed
+ * tests), including incorrectly annotated methods, classes that fail
+ * to load, classes that cannot be instantiated, etc.  These are
+ * reported either as ERRORS (no tests are run) or as WARNINGS (some
+ * tests are run).  By default, errors and warnings go to {@code
+ * System.err} but they can be redirected or even ignored (see {@code
+ * setPrintWriter}).
+ *
+ * <p>A tester can only been run once (whether directly or as part of
+ * a suite).  Any attempt to run it again will result in a {@code
+ * IllegalStateException},
+ *
+ * <p>Instances of this class are <em>not</em> safe for multi-threading.
+ *
+ * @author  Michel Charpentier
+ * @version 2.0, 01/26/14
+ * @see TestMethod
+ * @see Testable
+ */
+public abstract class Tester implements Runnable {
+
+  /** Package-private constructor. */
+  Tester () {}
+
+  /** Sets the tester output.  By default, the output is {@code
+   * System.err}.  It is valid to set the output to {@code null}, in
+   * which case the tester is completely silent.
+   *
+   * @param w the output for tester info; can be {@code null}
+   */
+  public abstract void setPrintWriter (PrintWriter w);
+
+  /** Runs all the tests in the test class or suite.
+   * @throws IllegalStateException if this tester has already been run.
+   */
+  public abstract void run ();
+
+  /** Test results.  This method returns a list that contains a {@code
+   * TestResult} object for each test that was run (in the order the
+   * test method were actually run).  The returned list can be
+   * modified and modifications have no affect on this tester (i.e.,
+   * this method make a copy of the list of results)
+   *
+   * @throws IllegalStateException if the tester has not yet been run
+   */
+  public abstract List<TestResult> getResults ();
+
+  /** Starts a console-based application.  Command line arguments are
+   * the names of the classes to be tested.  The application produces
+   * a summary output of tests that succeeded and tests that failed.
+   */
+  public static void main (String[] args) {
+    // TO BE IMPLEMENTED
+  }
+
+  /** Creates a tester for a single test class.  This method only
+   * creates the tester.  It makes no attempt to load the class,
+   * instantiate it, look for test methods, etc.
+   */
+  public static Tester makeTester (Class<? extends Testable> tests) {
+     // TO BE IMPLEMENTED
+     return null;
+  }
+
+  /** Creates a tester for a suite of testers. */
+  public static Tester makeSuite (Tester... testers) {
+    // TO BE IMPLEMENTED
+    return null;
+  }
+
+  /** Creates a tester for a suite of testers. */
+  public static Tester makeSuite (List<? extends Tester> testers) {
+    // TO BE IMPLEMENTED
+    return null;
+  }
+}

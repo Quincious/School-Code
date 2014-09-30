@@ -1,0 +1,9 @@
+Sample outputs of the starter inputs are given below. Make sure to test 
+your program thoroughly with additional test data.
+
+$ ./a.out < c2.dat
+4
+$ ./a.out < c1.dat 
+25
+$ ./a.out < c0.dat 
+1

@@ -1,0 +1,11 @@
+To run mynetwork:
+
+./mynetwork
+
+mynetwork has the sample network hardcoded in the program. Your 
+implementation should read the network data from an input file whose name 
+is passed as a program command line argument. E.g.
+
+./mynetwork data0
+
+ 

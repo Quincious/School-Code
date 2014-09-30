@@ -1,0 +1,3 @@
+For testing this program, I used java programs created in past classes. 
+Unfortunately, due to sustaining an injury over the weekend, I was unable to finish
+testing for all cases. lookupswitch is treated like tableswitch which is obviously incorrect.

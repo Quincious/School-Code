@@ -1,0 +1,9 @@
+-sourcepath src
+-d html
+-use
+-version
+-author
+-quiet
+-doctitle "CS-671, Spring 2014"
+-bottom 'Copyright 2014 Michel Charpentier.'
+-link http://java.sun.com/javase/7/docs/api/

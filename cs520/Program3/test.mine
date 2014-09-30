@@ -1,0 +1,118 @@
+Method Name: <init>
+	0 aload_0 
+	1 invokespecial (20)
+	4 aload_0 
+	5 bipush (8)
+	7 putfield (23)
+	10 aload_0 
+	11 bipush (8)
+	13 putfield (25)
+	16 aload_0 
+	17 sipush (4096)
+	20 newarray (10)
+	22 putfield (27)
+	25 aload_0 
+	26 new (29)
+	29 dup 
+	30 invokespecial (31)
+	33 putfield (32)
+	36 aload_0 
+	37 iload_1 
+	38 putfield (34)
+	41 aload_0 
+	42 iload_2 
+	43 putfield (36)
+	46 aload_0 
+	47 iload_1 
+	48 iload_2 
+	49 imul 
+	50 newarray (10)
+	52 putfield (38)
+	55 iconst_0 
+	56 istore_3 
+	57 goto (78)
+	60 aload_0 
+	61 getfield (27)
+	64 iload_3 
+	65 aload_0 
+	66 getfield (32)
+	69 ldc (40)
+	71 invokevirtual (41)
+	74 iastore 
+	75 iinc (3, 1)
+	78 iload_3 
+	79 sipush (4096)
+	82 if_icmplt (60)
+	85 return 
+
+Method Name: clear
+	0 iconst_0 
+	1 istore_1 
+	2 goto (15)
+	5 aload_0 
+	6 getfield (38)
+	9 iload_1 
+	10 iconst_0 
+	11 iastore 
+	12 iinc (1, 1)
+	15 iload_1 
+	16 aload_0 
+	17 getfield (38)
+	20 arraylength 
+	21 if_icmplt (5)
+	24 return 
+
+Method Name: render
+	0 iconst_0 
+	1 istore_3 
+	2 goto (78)
+	5 iload_3 
+	6 iload_2 
+	7 iadd 
+	8 istore (4)
+	10 iconst_0 
+	11 istore (5)
+	13 goto (66)
+	16 iload (5)
+	18 iload_1 
+	19 iadd 
+	20 istore (6)
+	22 iload (6)
+	24 iconst_4 
+	25 ishr 
+	26 bipush (63)
+	28 iand 
+	29 iload (4)
+	31 iconst_4 
+	32 ishr 
+	33 bipush (63)
+	35 iand 
+	36 bipush (64)
+	38 imul 
+	39 iadd 
+	40 istore (7)
+	42 aload_0 
+	43 getfield (38)
+	46 iload (5)
+	48 iload_3 
+	49 aload_0 
+	50 getfield (34)
+	53 imul 
+	54 iadd 
+	55 aload_0 
+	56 getfield (27)
+	59 iload (7)
+	61 iaload 
+	62 iastore 
+	63 iinc (5, 1)
+	66 iload (5)
+	68 aload_0 
+	69 getfield (34)
+	72 if_icmplt (16)
+	75 iinc (3, 1)
+	78 iload_3 
+	79 aload_0 
+	80 getfield (36)
+	83 if_icmplt (5)
+	86 return 
+

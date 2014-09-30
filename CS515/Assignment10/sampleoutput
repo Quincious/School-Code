@@ -1,0 +1,65 @@
+HERE IS A SAMPLE RUN USING DICTIONARY dict1 AND PHONE NUMBERS ARE REDIRECTED FROM FILE number
+
+$ phonewords dict1 < number
+Input a 10 digit number
+ gel joy mu am
+ gel joy mu an
+ gel joy nu am
+ gel joy nu an
+ gel low mu am
+ gel low mu an
+ gel low nu am
+ gel low nu an
+ hell my mu am
+ hell my mu an
+ hell my nu am
+ hell my nu an
+ hell ow mu am
+ hell ow mu an
+ hell ow nu am
+ hell ow nu an
+ hell ox mu am
+ hell ox mu an
+ hell ox nu am
+ hell ox nu an
+ hell own tan
+ hell own van
+ gekko you am
+ gekko you an
+ hello you am
+ hello you an
+Input a 10 digit number
+ you - gekko 0
+ you - hello 0
+Input a 10 digit number
+ gel 0 gel gel
+Input a 10 digit number
+ gel - gel gel
+Input a 10 digit number
+ ape 0 gekko -
+ ape 0 hello -
+ are 0 gekko -
+ are 0 hello -
+Input a 10 digit number
+ eg job be gab
+ eg lob be gab
+ eh job be gab
+ eh lob be gab
+ film abe gab
+ film ace gab
+ film bad gab
+ film cad gab
+Input a 10 digit number
+ he be - ache -
+ he be - acid -
+ he be - cage -
+ id be - ache -
+ id be - acid -
+ id be - cage -
+ if be - ache -
+ if be - acid -
+ if be - cage -
+ head - ache -
+ head - acid -
+ head - cage -
+Input a 10 digit number

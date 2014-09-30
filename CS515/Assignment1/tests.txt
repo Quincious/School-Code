@@ -1,0 +1,11 @@
+Dorm1 slice 4 half slice quarter slice slice
+Dorm2 quarter zero quarter slice
+Dorm3 whole half 1 slice slice zero zero quarter
+Dorm4
+Dorm5 zero zero 0 0 0
+
+D1 slice   half half slice quarter 9
+D2 quarter   zero	quarter	slice
+
+D3 whole		half slice double
+D4   slice	slice zero zero
